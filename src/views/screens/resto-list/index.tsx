@@ -15,9 +15,11 @@ export class RestoListScreen extends React.Component<
   }
 
   public render() {
+    const{theme} = this.props as Required<RestoListScreenProps>
+
     return (
-      <View>
-        <Text>RestoListScreen</Text>
+      <View style={theme.styles.background}>
+        <Text style={theme.styles.screenContainer}>RestoListScreen</Text>
       </View>
     )
   }
