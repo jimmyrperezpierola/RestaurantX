@@ -4,18 +4,19 @@ import { RestoListScreen } from '../resto-list'
 
 export const MainScreenNav = createMaterialTopTabNavigator(
   {
-    FavoriteRestoList: {
-      screen: FavoriteRestoListScreen,
-      navigationOptions: {
-        title: 'Restaurant Idola'
-      }
-    },
     RestoList: {
       screen: RestoListScreen,
       navigationOptions: {
         title: 'Daftar Restaurant'
       }
+    },
+    FavoriteRestoList: {
+      screen: FavoriteRestoListScreen,
+      navigationOptions: {
+        title: 'Restaurant Idola'
+      }
     }
+    
   },
   {
     initialRouteName: 'RestoList'
