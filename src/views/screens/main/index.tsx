@@ -1,5 +1,6 @@
 import React from 'react'
 import { Image, Platform, StyleSheet, Text, View } from 'react-native'
+import { MainScreenNav } from './nav'
 import { MainScreenProps } from './props'
 
 const instructions = Platform.select({
@@ -16,18 +17,8 @@ export class MainScreen extends React.Component<MainScreenProps> {
 
   public render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>Hello World!</Text>
-        <Image
-          source={require('../../../../assets/logo.png')}
-          style={{ marginVertical: 20, width: 185, height: 185 }}
-          resizeMethod="scale"
-        />
-        <Text style={styles.instructions}>To get started, edit:</Text>
-        <Text style={styles.instructions}>
-          ./src/views/sreens/main/index.tsx
-        </Text>
-        <Text style={styles.instructions}>{instructions}</Text>
+      <View style={{ flex: 1 }}>
+        <MainScreenNav />
       </View>
     )
   }
