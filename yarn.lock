@@ -765,10 +765,10 @@ anoa-react-native-theme@^0.2.0:
     deepmerge "^2.2.1"
     react-native-extended-stylesheet "^0.10.0"
 
-anoa@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/anoa/-/anoa-0.0.4.tgz#32c347c0ccc8e4f10e70663247c1ca9c2972ceaf"
-  integrity sha512-ioEDQYe4Yhw9BZxzMoSyI0UijYnYQZx6xbzAM6XDx+VUHBCE8pQV+junLKSz+jS6kfzE+aWkthcE95tfbnCeqA==
+anoa@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.yarnpkg.com/anoa/-/anoa-0.0.6.tgz#63fc9aeab6dc9d544e876d7a6150c3b831c0f1e4"
+  integrity sha512-Lqq9b5/qrpxXnSLxaUmVCBRg5/tCDhgf7h5KqFgFApFi+mVeTs0FGuWxc46jziEuwwPF7QxY7amsp0AWJeEzXw==
 
 ansi-colors@^1.0.1:
   version "1.1.0"

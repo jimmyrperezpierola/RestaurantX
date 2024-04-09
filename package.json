@@ -7,7 +7,7 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "anoa": "^0.0.4",
+    "anoa": "^0.0.6",
     "anoa-react-native-theme": "^0.2.0",
     "axios": "^0.18.0",
     "expo": "^31.0.2",
